@@ -1,0 +1,29 @@
+/* styles.css */
+
+.logo-container {
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.logo-letters {
+  width: 9rem;
+  height: 15rem;
+  margin-left: 1em;
+}
+
+@media (max-width: 767px) {
+  .logo-container {
+    flex-direction: row;
+    justify-content: center;
+    gap:.3em;
+  }
+
+  .logo-letters {
+    transform: rotate(90deg);
+    height: 3.5rem;
+    width: 2.8rem;
+    
+  }
+}
+
+

@@ -1,0 +1,37 @@
+/* styles.css */
+
+.links-container {
+  display: flex;
+  
+}
+
+.links {
+  color: rgba(255, 255, 255, 0.70);
+  font-family: Anton;
+  font-size: 6.9rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.4rem;
+  text-transform: uppercase;
+  writing-mode: vertical-rl;
+  transform: rotate(180deg);
+  width: 1em;
+  margin-right: 0.25em;
+}
+
+@media (max-width: 767px) {
+  .links-container {
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+  }
+
+  .links {
+    font-size: 2.8rem;
+    width: 4em;
+    transform: none;
+    writing-mode: horizontal-tb;
+    margin-bottom: 0.25em;
+    margin-right: 1.1em;
+  }
+}
