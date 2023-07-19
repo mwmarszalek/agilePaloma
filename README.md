@@ -24,7 +24,7 @@ git clone git@github.com:mwmarszalek/agilePaloma.git
 cd agilePaloma
 ```
 
-# Usage
+## Usage
 
 1. Build project
 
