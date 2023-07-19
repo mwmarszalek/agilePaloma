@@ -1,6 +1,8 @@
 # Agile.Pixel Front-End Challenge
 
-This project is a technical front-end challenge for Agile.Pixel. It demonstrates my skills and understanding of front-end development using [Vite](https://vitejs.dev/), [React](https://reactjs.org/), and [TypeScript](https://www.typescriptlang.org/).
+This project is a technical front-end challenge for Agile.Pixel. It demonstrates my skills and understanding of front-end development. For this simple project I decided to use[Vite](https://vitejs.dev/), [React](https://reactjs.org/), and [TypeScript](https://www.typescriptlang.org/) with pure CSS (why make your life easier with tailwind? :P)
+
+
 
 ## Features
 
@@ -14,11 +16,28 @@ This project is a technical front-end challenge for Agile.Pixel. It demonstrates
 1. Clone the repository:
 
    ```
-   git clone https://github.com/your-username/your-repository.git
+   git clone git@github.com:mwmarszalek/agilePaloma.git
    ```
 
 2. Navigate to project directory:
 
 ```
-cd your-repository
+cd agilePalome
 ```
+
+# Usage
+
+1. Build project
+
+```
+npm run build
+```
+
+2. Start development server
+
+```
+npm run dev
+```
+
+# ENJOY :-)
+
