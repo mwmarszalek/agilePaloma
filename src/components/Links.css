@@ -1,5 +1,6 @@
 .links-container {
   display: flex;
+  /* height: min-content; */
 }
 
 .links {
@@ -14,7 +15,10 @@
   width: 1em;
   margin-right: 0.25em;
   text-decoration: none;
+
 }
+
+
 
 @media (max-width: 767px) {
   .links-container {
