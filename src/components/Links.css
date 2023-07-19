@@ -14,7 +14,7 @@
   transform: rotate(180deg);
   width: 1em;
   height: fit-content;
-  margin-right: 0.25em;
+  margin-right: 0.32em;
   margin-bottom: 0.1em;
   text-decoration: none;
 }
@@ -36,7 +36,7 @@
     transform: none;
     writing-mode: horizontal-tb;
     margin-bottom: 0.25em;
-    margin-right: 1.1em;
+    margin-right: 1.3em;
   }
 }
 
