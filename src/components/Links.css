@@ -1,11 +1,10 @@
 .links-container {
   display: flex;
- align-items: flex-end;
-
+  align-items: flex-end;
 }
 
 .links {
-  color: rgba(255, 255, 255, 0.70);
+  color: rgba(255, 255, 255, 0.7);
   font-family: Anton;
   font-size: 6.9rem;
   font-style: normal;
@@ -14,16 +13,15 @@
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   width: 1em;
-  height:fit-content;
+  height: fit-content;
   margin-right: 0.25em;
+  margin-bottom: 0.1em;
   text-decoration: none;
 }
 
 .links:hover {
   cursor: pointer;
 }
-
-
 
 @media (max-width: 767px) {
   .links-container {

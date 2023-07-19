@@ -15,9 +15,9 @@ This project is a technical front-end challenge for Agile.Pixel. It demonstrates
 
 1. Clone the repository:
 
-   ```
-   git clone git@github.com:mwmarszalek/agilePaloma.git
-   ```
+```
+git clone git@github.com:mwmarszalek/agilePaloma.git
+```
 
 2. Navigate to project directory:
 
