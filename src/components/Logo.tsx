@@ -12,7 +12,7 @@ const Logo: React.FC = () => {
   useEffect(() => {
     const timer = setTimeout(() => {
       setIsLoaded(true);
-    }, 500); // Adjust the delay as needed
+    }, 500); // delay before rendering
 
     return () => {
       clearTimeout(timer);

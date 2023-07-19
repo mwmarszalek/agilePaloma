@@ -1,5 +1,5 @@
-import React, { useEffect, useState } from 'react';
-import './Links.css';
+import React, { useEffect, useState } from "react";
+import "./Links.css";
 
 const Links: React.FC = () => {
   const [blinked, setBlinked] = useState(false);
@@ -7,7 +7,7 @@ const Links: React.FC = () => {
   useEffect(() => {
     const blinkLinks = async () => {
       setBlinked(true);
-      await sleep(2000); // Adjust the duration of the blink (in milliseconds)
+      await sleep(2000); // blink(ms)
       setBlinked(false);
     };
 
@@ -15,19 +15,19 @@ const Links: React.FC = () => {
   }, []);
 
   const sleep = (ms: number) => {
-    return new Promise(resolve => setTimeout(resolve, ms));
+    return new Promise((resolve) => setTimeout(resolve, ms));
   };
 
   return (
-    <div className={`links-container ${blinked ? 'blinked' : ''}`}>
-      <a href="#" className="links">HEAR</a>
-      <a href="#" className="links">LATEST</a>
-      <a href="#" className="links">TOUR</a>
-      <a href="#" className="links">SEE</a>
-      <a href="#" className="links">SHOP</a>
-      <a href="#" className="links">WATCH</a>
-      <a href="#" className="links">PERSONAL</a>
-      <a href="#" className="links">AID</a>
+    <div className={`links-container ${blinked ? "blinked" : ""}`}>
+      <div className="links">HEAR</div>
+      <div className="links">LATEST</div>
+      <div className="links">TOUR</div>
+      <div className="links">SEE</div>
+      <div className="links">SHOP</div>
+      <div className="links">WATCH</div>
+      <div className="links">PERSONAL</div>
+      <div className="links">AID</div>
     </div>
   );
 };
