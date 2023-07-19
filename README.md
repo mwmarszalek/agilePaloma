@@ -1,6 +1,6 @@
-# <center>Agile.Pixel Front-End Challenge</center>
+# Agile.Pixel Front-End Challenge
 
-# <center>[https://agilepaloma.mwmarszalek.dev](agilepaloma.mwmarszalek.dev)</center>
+# (https://agilepaloma.mwmarszalek.dev)
 
 
 This project is a technical front-end challenge for Agile.Pixel. It demonstrates my skills and understanding of front-end development. For this simple project I decided to use [Vite](https://vitejs.dev/), [React](https://reactjs.org/), and [TypeScript](https://www.typescriptlang.org/) with pure CSS (why make your life easier with frameworks? :P)
