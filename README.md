@@ -5,10 +5,10 @@ This project is a technical front-end challenge for Agile.Pixel. It demonstrates
 
 ## Features
 
-- Displays a dynamic logo and blinking links.
+- Displays a dynamic, animated logo and links.
+- On-render animations,
 - Utilizes modern front-end development tools and technologies.
 - Responsive design for different screen sizes.
-- Deployed to GitHub Pages.
 
 ## Installation
 
