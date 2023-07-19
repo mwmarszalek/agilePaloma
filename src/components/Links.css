@@ -1,8 +1,5 @@
-
-
 .links-container {
   display: flex;
-  
 }
 
 .links {
@@ -16,6 +13,7 @@
   transform: rotate(180deg);
   width: 1em;
   margin-right: 0.25em;
+  text-decoration: none;
 }
 
 @media (max-width: 767px) {
@@ -32,5 +30,21 @@
     writing-mode: horizontal-tb;
     margin-bottom: 0.25em;
     margin-right: 1.1em;
+  }
+}
+
+.links-container.blinked .links {
+  animation: blink 4s infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
   }
 }
