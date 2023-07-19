@@ -1,6 +1,5 @@
 .links-container {
   display: flex;
-  /* height: min-content; */
 }
 
 .links {
@@ -13,6 +12,7 @@
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   width: 1em;
+  /* height:fit-content; */
   margin-right: 0.25em;
   text-decoration: none;
 

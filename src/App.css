@@ -12,6 +12,12 @@
   overflow: hidden;
 }
 
+.links-section-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 @media (max-width: 767px) {
   .main-container {
     flex-direction: column;

@@ -8,7 +8,10 @@ function App() {
     <div style={{ margin: "0" }}>
       <div className="main-container">
         <Logo />
-        <Links />
+        <div className="links-section-container">
+          <div></div>
+          <Links />
+        </div>
       </div>
     </div>
   );
