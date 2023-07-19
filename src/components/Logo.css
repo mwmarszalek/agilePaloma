@@ -1,8 +1,7 @@
-/* styles.css */
-
 .logo-container {
   display: flex;
   flex-direction: column-reverse;
+  margin: 1em 0 1em 0.5em;
 }
 
 .logo-letters {
@@ -14,15 +13,14 @@
 @media (max-width: 767px) {
   .logo-container {
     flex-direction: row;
-    justify-content: center;
-    gap:.3em;
+    margin: 0;
+    width: 100wh;
   }
 
   .logo-letters {
     transform: rotate(90deg);
     height: 3.5rem;
     width: 2.8rem;
-    
   }
 }
 

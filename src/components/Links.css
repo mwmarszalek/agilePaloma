@@ -1,4 +1,4 @@
-/* styles.css */
+
 
 .links-container {
   display: flex;
@@ -12,7 +12,6 @@
   font-style: normal;
   font-weight: 400;
   letter-spacing: 0.4rem;
-  text-transform: uppercase;
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   width: 1em;
