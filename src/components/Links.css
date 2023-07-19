@@ -1,5 +1,7 @@
 .links-container {
   display: flex;
+ align-items: flex-end;
+
 }
 
 .links {
@@ -12,10 +14,9 @@
   writing-mode: vertical-rl;
   transform: rotate(180deg);
   width: 1em;
-  /* height:fit-content; */
+  height:fit-content;
   margin-right: 0.25em;
   text-decoration: none;
-
 }
 
 
@@ -35,6 +36,10 @@
     margin-bottom: 0.25em;
     margin-right: 1.1em;
   }
+}
+
+.links:hover {
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
 }
 
 .links-container.blinked .links {

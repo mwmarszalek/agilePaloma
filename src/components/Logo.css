@@ -18,6 +18,10 @@
   margin-left: 1em;
 }
 
+.logo-container:hover .logo-letters {
+  filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+}
+
 @media (max-width: 767px) {
   .logo-container {
     flex-direction: row;
